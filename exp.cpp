@@ -24,7 +24,13 @@ public:
 };
 int main()
 {
-    Student s1(101,"Arun");
+    int r;
+    string n;
+    cout<<"Enter Roll Number: ";
+    cin>>r;
+    cout<<"Enter Name: ";
+    cin>>n;
+    Student s1(r,n);
     s1.display();
     return 0;
 }
